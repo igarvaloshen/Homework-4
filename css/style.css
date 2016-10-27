@@ -18,8 +18,7 @@ header  {
     margin: 0 auto;
 }
 header  {
-    background-image: url('../img/header.jpg');
-    background-repeat: no-repeat;
+    background: url('../img/header.jpg') no-repeat;
     background-size: cover;
 }
 .header-ul  {
@@ -44,8 +43,7 @@ header  {
     font-family: "exo_2.0light", sans-serif;
 }
 .header-search    {
-    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAMAAACeyVWkAAAA+VBMVEX////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////r1CuUAAAAUnRSTlMABwgLDBARExYZGx8jJCUyNjc5OkFCTE9XXV9gY2Rob3BxdXZ7fICEh4iJi46RkpOVnKCiqKmusLO6vcPIz9DV2Nrg4eLj5ebv8PHz9/j6+/z+nNtxkwAAALtJREFUGNNtzeUOwkAQBODD3Ys7FHd3dyg27/8w5Eopd0nnx83my+aWEJrkAsBzHCRM/GccOzlx+MbUqGIEG+93iuLuUNCHvrpgkm7KJO2ZzyzKShIu9kYJVlrHE4tEhwIttDgl17msaV6X8hmIvG7Xss54RY++PXAoIEDLjhqrh8u36xD+WIVHmaaI/7CLgbrQxyrh1Bs8xQdGSKkc2kHOxEaayP7/c8eKYthMpwYyRCMV5LW4jKYWt18fKKEbWwkmTwwAAAAASUVORK5CYII=);
-    background-repeat: no-repeat;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAMAAACeyVWkAAAA+VBMVEX////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////r1CuUAAAAUnRSTlMABwgLDBARExYZGx8jJCUyNjc5OkFCTE9XXV9gY2Rob3BxdXZ7fICEh4iJi46RkpOVnKCiqKmusLO6vcPIz9DV2Nrg4eLj5ebv8PHz9/j6+/z+nNtxkwAAALtJREFUGNNtzeUOwkAQBODD3Ys7FHd3dyg27/8w5Eopd0nnx83my+aWEJrkAsBzHCRM/GccOzlx+MbUqGIEG+93iuLuUNCHvrpgkm7KJO2ZzyzKShIu9kYJVlrHE4tEhwIttDgl17msaV6X8hmIvG7Xss54RY++PXAoIEDLjhqrh8u36xD+WIVHmaaI/7CLgbrQxyrh1Bs8xQdGSKkc2kHOxEaayP7/c8eKYthMpwYyRCMV5LW4jKYWt18fKKEbWwkmTwwAAAAASUVORK5CYII=) no-repeat;
     display: inline-block;
     height: 21px;
     width: 21px;
@@ -67,12 +65,10 @@ header  {
 
 }
 .logo   {
-    background-image: url('../img/logo.png');
-    background-repeat: no-repeat;
+    background: url('../img/logo.png') no-repeat;
     width: 257px;
     height: 166px;
-    margin-top: 25px;
-    margin: auto;
+    margin: 25px auto;
     box-sizing: border-box;
     vertical-align: top;
 }
@@ -101,10 +97,7 @@ h1  {
 .get_started    {
     background: #87d37c;
     color: white;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding: 16px 60px 16px 60px;
     border-radius: 5px;
     font-size: 26px;
     text-decoration: none;
@@ -136,8 +129,7 @@ section {
     height: 20px;
 }
 .search-img {
-    background-image: url("../img/section-search.png");
-    background-repeat: no-repeat;
+    background: url("../img/section-search.png") no-repeat;
     height: 21px;
     width: 21px;
     display: inline-block;
@@ -149,7 +141,6 @@ section {
     display: inline-block;
     vertical-align: top;
     list-style: none;
-    margin-top: 25px;
     margin-left: 95px;
     margin-top: -65px;
 }
@@ -191,9 +182,6 @@ section {
     border-radius: 100px;
     border: 8px solid #87d37c;
     margin-bottom: 22px;
-}
-.circle_mod {
-    margin-bottom: 18px;
 }
 .circle_bottom  {
     margin-bottom: 19px;
@@ -253,7 +241,7 @@ section {
     font-size: 21px;
 }
 .service_p_mod  {
-    padding-top: 0px;
+    padding-top: 0;
 }
 .service_mod    {
     padding-right: 0;
@@ -283,8 +271,7 @@ section {
     margin-left: 142px;
 }
 .photo  {
-    background-image: url("../img/slide1.jpg");
-    background-repeat: no-repeat;
+    background: url("../img/slide1.jpg") no-repeat;
     display: inline-block;
     width: 364px;
     height: 249px;
@@ -323,7 +310,7 @@ section {
     background-image: url("../img/slide6.jpg");
 }
 .photo_mod  {
-    margin-right: 0px;
+    margin-right: 0;
 }
 .partners   {
     height: 210px;
@@ -357,7 +344,6 @@ section {
     margin-left: 84px;
 }
 .four_gr    {
-    margin: 0px;
     height: 122px;
     width: 245px;
     background-position-y: 130px;
@@ -425,7 +411,7 @@ section {
     width: 846px;
     margin-left: -126px;
     font-size: 23px;
-    letter-spacing: 0px;
+    letter-spacing: 0;
     padding-top: 40px;
     vertical-align: middle;
     color: white;
@@ -449,7 +435,7 @@ section {
 .gmaps_mod  {
     height: 700px;
     position: absolute;
-    top: 0%;
+    top: 0;
     z-index: 1;
     background: #000000;
     background: linear-gradient(to top, black, #585858);
@@ -463,13 +449,8 @@ section {
     width: 310px;
     opacity: 0.3;
     border-radius: 12px;
-    margin-top: 30px;
-    margin-right: 25px;
-    margin-bottom: 24px;
-    padding-top: 23px;
-    padding-bottom: 23px;
-    padding-left: 25px;
-    padding-right: 25px;
+    margin: 30px 25px 24px;
+    padding: 23px 25px 23px 25px;
     font-size: 18px;
     pointer-events: auto;
     font-family: 'exo_2.0italic', sans-serif;
@@ -480,10 +461,7 @@ textarea    {
     width: 706px;
     height: 131px;
     opacity: 0.3;
-    padding-top: 35px;
-    padding-bottom: 34px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding: 35px 25px 34px 25px;
     font-size: 18px;
     pointer-events: auto;
     font-family: 'exo_2.0italic', sans-serif;
@@ -491,13 +469,10 @@ textarea    {
 }
 button  {
     font-size: 18px;
-    padding-top: 22px;
-    padding-bottom: 22px;
+    padding: 22px 116px 22px 116px;
     border-radius: 12px;
     background: #87d37c;
     color: white;
-    padding-left: 116px;
-    padding-right: 116px;
     margin-left: 393px;
     margin-top: 26px;
     opacity: 1;
@@ -516,7 +491,7 @@ footer  {
     padding-right: 211px;
 }
 .link   {
-padding-right: 0px;
+padding-right: 0;
     text-align: center;
     float: right;
 }
@@ -530,7 +505,7 @@ padding-right: 0px;
     padding-left: 76px;
 }
 .footer_h3_social   {
-padding-left: 0px;
+padding-left: 0;
 }
 .skype  {
     color: #666666;
